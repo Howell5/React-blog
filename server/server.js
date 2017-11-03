@@ -22,5 +22,5 @@ app.use(async (ctx) => {
   await ctx.render('index.html');
 });
 app.listen(8080);
-console.log("系统启动，端口：8080");
-module.exports = app;	
+console.log('系统启动，端口：8080');
+module.exports = app;
